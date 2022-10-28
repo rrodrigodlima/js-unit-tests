@@ -27,5 +27,4 @@ describe('2 - Implemente os casos de teste para a função `numbers`', () => {
   it('Verifica se a função `numbers` retorna `false` quando o array esta vazio', () => {
     expect(numbers([' '])).toBeFalsy();
   });
-
 });
